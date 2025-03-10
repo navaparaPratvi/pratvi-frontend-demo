@@ -1,0 +1,84 @@
+.product-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.drag-icon {
+  cursor: grab;
+  color: #b3b3b3;
+}
+
+.product-index {
+  font-size: 14px;
+}
+
+.product-input {
+  flex: 1;
+  min-width: 200px;
+}
+
+.edit-icon {
+  cursor: pointer;
+}
+
+.add-discount-btn {
+  background-color: #0f5534;
+  color: #fff;
+  border-radius: 5px;
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.discount-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.discount-input {
+  width: 70px;
+  text-align: center;
+}
+
+.discount-select {
+  width: 100px;
+}
+
+.delete-icon {
+  color: #d3d3d3;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.variant-toggle {
+  font-size: 12px;
+  color: #1890ff;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.variant-list {
+  margin-left: 30px;
+  padding: 5px 0;
+}
+
+.variant-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.variant-drag-icon {
+  cursor: grab;
+  color: #b3b3b3;
+}
+
+.variant-input {
+  flex: 1;
+  border-radius: 5px;
+  padding: 4px 10px;
+}

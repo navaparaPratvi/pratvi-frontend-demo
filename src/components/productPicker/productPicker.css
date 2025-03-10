@@ -1,0 +1,7 @@
+.variant-grid {
+  display: grid;
+  grid-template-columns: 0fr 1fr 1fr 1fr; /* Three equal columns */
+  gap: 16px; /* Adjust spacing between columns */
+  align-items: center; /* Align content vertically */
+  width: 100%;
+}

@@ -1,0 +1,67 @@
+.product-row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .drag-icon {
+    font-size: 18px;
+    color: #757575;
+    cursor: grab;
+  }
+
+  .index {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 250px;
+
+    .ant-input {
+      flex: 1;
+      height: 38px;
+      border-radius: 6px;
+    }
+
+    .edit-icon {
+      position: absolute;
+      right: 8px;
+      font-size: 16px;
+      color: #0f5534;
+      cursor: pointer;
+    }
+  }
+
+  .discount-btn {
+    background-color: #0f5534;
+    color: white;
+    height: 38px;
+    font-weight: 500;
+    border-radius: 6px;
+
+    &:hover {
+      background-color: #094626;
+    }
+  }
+
+  .bottom-section {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 5px;
+  }
+
+  .show-variants {
+    color: #0073e6;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}

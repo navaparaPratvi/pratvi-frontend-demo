@@ -1,0 +1,32 @@
+.offer-funnel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 8px;
+  color: rebeccapurple;
+
+  .offer-title {
+    margin: 0;
+  }
+
+  .offer-links {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #595959;
+
+    .link {
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+      }
+    }
+
+    .separator {
+      margin: 0 8px;
+      color: #bfbfbf;
+    }
+  }
+}

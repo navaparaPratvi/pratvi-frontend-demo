@@ -1,0 +1,35 @@
+.bundle-products-info {
+  padding-bottom: 12px;
+  
+  .title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #595959;
+
+    .icon {
+      color: #faad14;
+      font-size: 16px;
+      margin-right: 6px;
+    }
+
+    .description {
+      color: #595959;
+    }
+  }
+
+  .error-message {
+    display: block;
+    margin-top: 6px;
+    color: #d93026;
+    font-size: 14px;
+  }
+}
